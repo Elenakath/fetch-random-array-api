@@ -20,7 +20,7 @@ const displayImage = function (randomImage) {
     const author = randomImage.author;
     const imageAddress = randomImage.download_url;
     authorSpan.innerText = author;
-    img.scr = imageAddress;
+    img.src = imageAddress;
     imgDiv.classList.remove("hide");
 };
 
